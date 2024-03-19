@@ -17,7 +17,9 @@ You will also see any lint errors in the console.
 
 ### `npm run start:server`
 
-Start server
+Start server on port 
+Open [http://localhost:3500](http://localhost:3500) to view it in the browser.
+
 
 ### `npm test`
 
