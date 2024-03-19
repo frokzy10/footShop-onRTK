@@ -1,0 +1,23 @@
+.cart{
+  text-align: center;
+  font-family: "Open sans",sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  padding-top: 1%;
+}
+.cardContainer{
+  display: flex;
+  margin-top: 2%;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 9px;
+  gap: 20px;
+  margin-bottom: 2%;
+  .cardImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+}

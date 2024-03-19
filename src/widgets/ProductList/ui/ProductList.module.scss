@@ -1,0 +1,18 @@
+.productCardContainer{
+  display: grid;
+  grid-template-columns: repeat(3,0fr);
+  justify-content: center;
+  padding: 3%;
+}
+.productTitle{
+  padding: 1%;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Open sans",sans-serif;
+  text-align: center;
+}
+.Loading{
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+}

@@ -1,0 +1,50 @@
+.AuthForm {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  background-color: #214b71;
+  gap: 15px;
+
+  input {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #dddddd;
+    border: none;
+    border-radius: 9px;
+    height: 40px;
+    padding: 2%;
+    outline: none;
+
+    &::placeholder {
+      color: #000;
+      font-family: "Open sans", sans-serif;
+    }
+  }
+  .AuthTitle{
+    font-family: "Open sans",sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 3%;
+  }
+  button{
+    width: 160px;
+    border: none;
+    height: 35px;
+    font-family: Arial,sans-serif;
+    font-weight: 600;
+    background-color: #ff7300;
+    font-size: 14px;
+    margin-left: 6%;
+    transition: all 400ms;
+    &:hover{
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.MainContainer{
+  padding: 1.5%;
+
+  .MainSubtitle{
+    color: #dddddd;
+    font-family: Calibri,sans-serif;
+    font-size: 17px;
+    margin-bottom: 1.5%;
+  }
+
+  .MainTitle {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .MainButton{
+    width: 120px;
+    height: 35px;
+    font-family: Arial,sans-serif;
+    font-weight: 500;
+    background: #e08600;
+    border: none;
+    color: #ffffff;
+    transition: all 500ms;
+    &:hover{
+      background-color: #ff7300;
+      cursor: pointer;
+    }
+  }
+}

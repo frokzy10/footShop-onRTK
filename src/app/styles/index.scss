@@ -1,0 +1,15 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+  padding: 1%;
+  background-image: url("https://storage.googleapis.com/uxfolio/615ca2f4df793f0003cd39c8/61f2e4cad795010003bbde36/social/TtaZcuQ8SaQjuD6x.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+section, footer {
+  max-width: 1350px;
+  margin: 130px auto;
+  background: #333333;
+}

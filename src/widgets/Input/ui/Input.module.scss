@@ -1,0 +1,74 @@
+::-webkit-scrollbar {
+  width: 10px; /* Ширина скроллбара */
+}
+
+/* Стиль ползунка */
+::-webkit-scrollbar-thumb {
+  background-color: #a9a9a9; /* Цвет ползунка */
+  border-radius: 5px; /* Радиус углов ползунка */
+}
+
+/* Стиль трека (фон скроллбара) */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Цвет фона скроллбара */
+}
+
+.noneTitle{
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Open sans",sans-serif;
+  color: #ffffff;
+}
+.inputContainer {
+  display: flex;
+  position: relative;
+
+  input {
+    width: 200px;
+    height: 35px;
+    border-radius: 9px;
+    outline: none;
+    padding: 2%;
+    font-family: "Open sans", sans-serif;
+    font-weight: 500;
+    transition: all 400ms;
+    border: none;
+
+    &:focus {
+      background-color: #1f1f1f;
+      color: #ffffff;
+    }
+  }
+
+  .inputDropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 400px;
+    background-color: #214b71;
+    display: inline-block;
+    overflow: scroll;
+    height: 300px;
+    overflow-x: hidden;
+
+    .searchBox {
+      display: flex;
+      align-items: center;
+      .searchImg{
+        width: 120px;
+        height: 100px;
+        object-fit: cover;
+      }
+      li {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        font-size: 18px;
+      }
+    }
+  }
+}

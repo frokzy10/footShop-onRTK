@@ -1,0 +1,78 @@
+.productDetails {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  .leftSide img {
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .rightSide {
+    h2 {
+      font-family: "Open sans", sans-serif;
+      font-weight: 600;
+      font-size: 40px;
+      color: #ffffff;
+      margin-bottom: 2%;
+    }
+
+    p {
+      font-family: Arial, sans-serif;
+      font-weight: 400;
+      color: #dddddd;
+      margin-bottom: 3%;
+    }
+
+    h3 {
+      font-size: 30px;
+      color: #ffffff;
+      font-family: "Open sans", sans-serif;
+      font-weight: 500;
+    }
+
+    .rightSideBottom {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: flex-end;
+      padding: 1% 5%;
+
+      .addToCard {
+        width: 150px;
+        height: 40px;
+        font-family: "Open sans", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        background-color: #214b71;
+        border: none;
+        color: #ffffff;
+        transition: all 400ms;
+        &:hover{
+          opacity: 0.82;
+          cursor: pointer;
+        }
+      }
+
+      .buyProduct {
+        padding: 20px;
+        height: 40px;
+        font-family: "Open sans",sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        background-color: #214b71;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        transition: all 400ms;
+        &:hover{
+          opacity: 0.82;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

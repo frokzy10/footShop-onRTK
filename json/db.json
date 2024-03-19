@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "username": "nurdin",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "product": [
+    {
+      "title":"Nike Dunk Low Retro",
+      "description": "Created for the hardwood but taken to the streets, the Nike Dunk Low Retro returns with crisp overlays and original team colors. This basketball icon channels '80s vibes",
+      "id": 1,
+      "price": 115.99,
+      "images": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b1bcbca4-e853-4df7-b329-5be3c61ee057/dunk-low-retro-mens-shoes-5FQWGR.png"
+    },
+    {
+      "title":"Nike Air Max 1",
+      "description": "Meet the leader of the pack. Walking on clouds above the noise, the Air Max 1 blends timeless design with cushioned comfort.",
+      "id": 2,
+      "price": 140.99,
+      "images": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2d2d6b61-3c5c-4b59-92ce-b2bf2d5a03dc/air-max-1-mens-shoes-2C5sX2.png"
+    },
+    {
+      "title":"Nike SB React Leo",
+      "description": "Created for the hardwood but taken to the streets, the Nike Dunk Low Retro returns with crisp overlays and original team colors. This basketball icon channels '80s vibes",
+      "id": 3,
+      "price": 95.99,
+      "images": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5304c585-296d-4d41-9e81-3e6a188bd857/sb-react-leo-skate-shoes-p5xlWk.png"
+    },
+    {
+      "title":"Nike E-Series AD",
+      "description": "Created for the hardwood but taken to the streets, the Nike Dunk Low Retro returns with crisp overlays and original team colors. This basketball icon channels '80s vibes",
+      "id": 4,
+      "price": 75.99,
+      "images": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f56ea202-9af9-4cc7-9b26-77585f8ca525/e-series-ad-mens-shoes-nHtW1P.png"
+    },
+    {
+      "title":"Nike Fury",
+      "description": "The Nike Fury combines exceptional flexibility and grip with a fully breathable upper for optimal comfort.",
+      "id": 5,
+      "price": 90.99,
+      "images": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f87b5fa5-3c7e-45e9-98ac-c4e9e14abed9/fury-wrestling-shoes-jjSRvT.png"
+    },
+    {
+      "title":"Nike Air Flight Huarache",
+      "description": "Nobody does basketball like us, and that means no one brings 'em back like we do. Straight from the vault, the Air Flight Huarache is back.",
+      "id": 6,
+      "price": 93.97,
+      "images": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cd50f25f-04d5-4d37-88a2-9d89cfc4f472/air-flight-huarache-mens-shoes-8Kcnt5.png"
+    }
+  ]
+}

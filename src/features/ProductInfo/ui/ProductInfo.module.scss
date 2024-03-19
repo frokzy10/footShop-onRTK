@@ -1,0 +1,39 @@
+.ProductCardContainer{
+  display: grid;
+  grid-template-columns: repeat(3,0fr);
+  justify-content: center;
+  .card{
+    width: 250px;
+    padding: 2%;
+    margin: 10px;
+    height: 300px;
+    transition: all 400ms;
+    background-color: #214b71;
+    &:hover{
+      z-index: 0;
+      scale: 1.06;
+      cursor: pointer;
+      background-color: rgba(33, 75, 113, 0.93);
+    }
+    .cardTitle{
+      font-family: Arial,sans-serif;
+      font-size: 23px;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+    .cardDescription{
+      font-family: "Open sans",sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      color: #dddddd;
+      margin-bottom: 10%;
+    }
+    .cardPrice{
+      font-family: "Book Antiqua",sans-serif;
+      font-weight: 600;
+      color: #ffffff;
+    }
+  }
+}
